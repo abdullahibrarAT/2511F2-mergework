@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(16, 17, 29);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  margin: 0;
+  height: 500px;
+  width: 1340px;
+  background-color: rgb(16, 17, 29);
+  color: white;
+  margin: 20px;
+}
+.add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 20px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #1abc9c, #2ed1b2);
+}
+h2 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.Icon-add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disc {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.IMG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: solid 6px #303030;
+    border-radius: 300px;
+    background-color: #303030;
+}
+img {
+  height: 500px;
+  width: 500px;
+  border: #303030;
+}
+.img-f {
+  border-radius: 350px;
+}
