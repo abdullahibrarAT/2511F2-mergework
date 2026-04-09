@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#e5e5e5;
+}
+
+/* HEADER */
+
+header{
+    background:#2c2c2c;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+.logo{
+    font-size:14px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:14px;
+}
+
+.menu{
+    font-size:20px;
+    cursor:pointer;
+}
+
+/* HERO SECTION */
+
+.hero{
+    display:flex;
+    width:90%;
+    margin:30px auto;
+    height:80vh;
+    background:white;
+}
+
+/* LEFT IMAGE */
+
+.left{
+    width:50%;
+}
+
+.left img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* RIGHT CONTENT */
+
+.right{
+    width:50%;
+    background:#1f1f1f;
+    color:white;
+    padding:80px 60px;
+    position:relative;
+}
+
+.right h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.right p{
+    font-size:14px;
+    color:#ccc;
+    width:80%;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+/* BUTTONS */
+
+.buttons{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.explore{
+    background:white;
+    color:black;
+    padding:12px 20px;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.play{
+    background:none;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size:14px;
+}
+
+/* PAGE NUMBER */
+
+.page{
+    position:absolute;
+    bottom:20px;
+    right:30px;
+    font-size:12px;
+    color:#aaa;
+}
